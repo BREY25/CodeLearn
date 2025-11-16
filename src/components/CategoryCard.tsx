@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import { Category } from '../lib/supabase';
 
-const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+const iconMap: Record<string, React.ComponentType<any>> = {
   'code-2': Code2,
   'braces': Braces,
   'cloud': Cloud,

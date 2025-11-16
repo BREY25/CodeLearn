@@ -5,6 +5,7 @@ import { CategoryCard } from './components/CategoryCard';
 import { ProjectCard } from './components/ProjectCard';
 import { BugCard } from './components/BugCard';
 import { ConceptCard } from './components/ConceptCard';
+import { Chatbot } from './components/Chatbot';
 import { supabase, Category, Project, CommonBug } from './lib/supabase';
 import { Workflow, Globe, Server, Rocket } from 'lucide-react';
 
@@ -187,6 +188,8 @@ function App() {
           </div>
         </div>
       </footer>
+
+      <Chatbot />
     </div>
   );
 }
